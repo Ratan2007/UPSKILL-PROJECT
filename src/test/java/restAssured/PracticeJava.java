@@ -8,7 +8,9 @@ public class PracticeJava {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SKRAT\\eclipse-workspace02\\RestAssuredProject\\src\\test\\resources\\Driver\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://mvnrepository.com/");
+		System.out.println("This is Hafiz");
 		driver.close();
+		
 	}
 
 }
